@@ -1,0 +1,54 @@
+#+title:  Emacs shortcuts
+#+author: Ivan Lopes
+#+date:   2021-09-08
+
+* EMACS
+** SPC f f       Find File
+** SPC SPC       Find File
+** SPC f d       Find File with dired
+    q        Exit dired buffer
+    C-c C-r  Run dired-rsync
+    C-c C-e  Rename entries with wdired
+    NOTA: seguro CTRL, aprto c e depois e, de forma sequencial
+    Entra no modo de edição, escrevo o novo nome e aceito a
+    modificação com "Z Z" ou cancelo com "Z Q"
+    Para consulta [[/home/ivan/.config/emacs.d/.local/straight/repos/ranger.el/ranger.el][ranger config]]
+** SPC o t       Open Terminal
+** SPC f s       File save
+** SPC q q       Exit Emacs
+** SPC q Q       Exit without Emacs
+** SPC q R       Restart Emacs
+** SPC f p       Find File in Private Config
+    $ pwd
+    /home/ivan/.config/doom.d/
+    $ ls
+    [[~/.config/doom.d/config.el][config.el]]  [[~/.config/doom.d/init.el][init.el]]  [[~/.config/doom.d/packages.el][packages.el]]
+** SPC o p       Open painel lateral de navegação
+   treemacs
+** SPC p p       Open projects
+   Os projetos são armazenados aqui: [[~/.config/emacs.d/.local/cache/projectile.projects][projectile.projects]]
+
+** SPC p a       Append project
+** SPC f r       Recently opened files
+** SPC b B       Swich Buffer
+** SPC b k       Kill Buffer
+** SPC b N       New Buffer
+** SPC g g       magit
+** SPC TAB TAB   show tabs
+** SPC TAB .     swich tab
+** SPC w k       go up window
+** SPC w j       go down -window
+** SPC w b       go right window
+** SPC w h       go left window
+** SPC w c-w     other-window
+** SPC w c       close current window
+** SPC w s       split windows horizontally
+** SPC w v       split windows vertically
+** SPC :         Evaluate Function
+** SPC i e       :emojify-insert-emoji
+** C-x o         Open file in other window
+** C-x 0         Close current window
+** C-x 1         Close other windows
+** C-x 2         Open new windows
+
+
